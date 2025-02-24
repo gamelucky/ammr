@@ -1,4 +1,4 @@
-ma_moi = input(str("Nhập mã mời: "))
+
 while 1>0:
     import requests, random, string
 
@@ -20,7 +20,7 @@ while 1>0:
         "email": generate_email(), "name": generate_name(), "mobile": generate_phone(),
         "password": random_string(random.randint(8, 12), string.ascii_letters + string.digits),
         "gender": random.choice([0, 1]), "province_id": 24, "district_id": 218, "ward_id": 7504,
-        "referral_code": ma_moi
+        "referral_code": V0C6lW
     }
 
     headers = {
