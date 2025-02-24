@@ -2,9 +2,9 @@ import time
 import requests
 import random
 import string
-
+ng = input("Số điểm:"),"x2"
 # Số tài khoản cần tạo
-so_luong = 1000
+so_luong = ng
 
 def random_string(length, chars=string.ascii_lowercase + string.digits):
     return ''.join(random.choices(chars, k=length))
